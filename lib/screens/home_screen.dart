@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:simple_web_rtc_client/rtc_screen.dart';
+import 'package:simple_web_rtc_client/screens/rtc_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

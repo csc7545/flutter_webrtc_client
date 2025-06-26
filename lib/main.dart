@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:simple_web_rtc_client/home_screen.dart';
+import 'package:simple_web_rtc_client/screens/home_screen.dart';
 
 void main() => runApp(
       const MyApp(),
