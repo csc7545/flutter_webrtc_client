@@ -24,11 +24,13 @@ cd flutter-webrtc-client
 ```
 
 ### 2. Install dependencies
+
 ```bash
 flutter pub get
 ```
 
 ### 3. Run on device
+
 ```bash
 flutter run
 ```
@@ -47,10 +49,20 @@ const String socketUrl = 'http://192.168.0.100:3000'; // your server IP
 
 ---
 
+### 🔌 Signaling Server
+
+This client app requires a WebRTC signaling server to function.  
+👉 You can find the companion signaling server here:  
+**[webrtc-signaling-server](https://github.com/csc7545/webrtc-signaling-server)**
+
+Make sure it's running before launching the app.
+
+---
+
 ## 📦 Dependencies
 
 - flutter_webrtc
--	socket_io_client
--	permission_handler
+- socket_io_client
+- permission_handler
 
 ---
