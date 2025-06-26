@@ -173,7 +173,7 @@ class _RtcScreenState extends State<RtcScreen> {
   void _connectSocket() {
     debugPrint('Connecting to socket...');
 
-    const String socketUrl = 'http://10.20.210.154:3000';
+    const String socketUrl = ''; // put your own ip address
     _socket = io.io(socketUrl, <String, dynamic>{
       'transports': ['websocket'],
       'autoConnect': false,
